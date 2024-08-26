@@ -19,3 +19,56 @@ h1 {
   font-size: 2.5rem;
   color: #333;
 }
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.app-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+}
+.header, .main {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+.voting-form-container {
+  position: relative;
+  z-index: 2;
+  margin-left: 20px;
+  /* margin-top: 50px; */
+  margin-top: 40vh;
+  color: black;
+  width: 300px; /* Fix the width of the form */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0); 
+  /* background-color: white; */
+  border-radius: 10px;
+  animation: fadeIn 3s forwards;
+
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

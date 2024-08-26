@@ -12,13 +12,16 @@ const App = () => {
   };
 
   return (
+    
     <div className="app-container">
+    <video autoPlay muted className="video-background">
+    <source  src="/edit2.mp4" type="video/mp4"/>
+    </video>
       <header className="header">
         <MetaMaskLogin onLogin={handleLogin} />
         {account && <p>Connected: {account}</p>}
       </header>
       <main>
-        <h1>Voting System</h1>
         <VotingForm account={account} />
       </main>
     </div>
