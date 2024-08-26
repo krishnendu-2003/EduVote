@@ -49,13 +49,11 @@ html, body {
   position: relative;
   z-index: 2;
   margin-left: 20px;
-  /* margin-top: 50px; */
   margin-top: 40vh;
   color: black;
-  width: 300px; /* Fix the width of the form */
+  width: 300px; 
   padding: 20px;
   background-color: rgba(0, 0, 0, 0); 
-  /* background-color: white; */
   border-radius: 10px;
   animation: fadeIn 3s forwards;
 
