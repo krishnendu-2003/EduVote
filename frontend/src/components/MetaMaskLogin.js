@@ -23,7 +23,7 @@ const MetaMaskLogin = ({ onLogin }) => {
 
   return (
     <div>
-      <button onClick={connectWallet}>Connect MetaMask</button>
+      <button onClick={connectWallet} style={{marginRight: 40}}>Connect MetaMask</button>
       {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
     </div>
   );
