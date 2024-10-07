@@ -15,7 +15,7 @@ const App = () => {
     
     <div className="app-container">
     <video autoPlay muted className="video-background">
-    <source  src="/edit2.mp4" type="video/mp4"/>
+    <source  src="/edit.mp4" type="video/mp4"/>
     </video>
       <header className="header">
         <MetaMaskLogin onLogin={handleLogin} />
